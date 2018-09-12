@@ -3,28 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>a1</string>
+	<string>swift-mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = UIColor.iFontBlack70
-        
-        self.initUI()
-        self.configlanguage()
-    }</string>
+	<string>// MARK: - &lt;#Section#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C9F4F67D-538B-4DEB-A22C-9D481BA69C84</string>
+	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Divider label for separating code into sections</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Swift Mark:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
