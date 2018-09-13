@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-attri</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> let content = &lt;#String#&gt;
+        let subContent = &lt;#String#&gt;
+        let font = &lt;#Font#&gt;
+        let range = NSRange.init(location: 0, length: subContent.length)
+        let contentAttributedStr = NSMutableAttributedString(string: content as String)
+        contentAttributedStr.addAttribute(NSAttributedStringKey.font, value: font, range: range)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8FAE01D9-1C91-47EC-ACDE-ED2D226165DA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>属性字符串处理方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift-attri</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
